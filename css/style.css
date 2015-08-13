@@ -1,0 +1,468 @@
+
+/*
+ * common
+ */
+
+ul li{
+    list-style:none;
+    display:inline-block;
+}
+
+/*
+ * header
+ */
+#header{
+	height:150px;
+   background:#000000;
+}
+
+   .logo {
+    margin: 10px auto 12px;
+    width: 252px;
+}
+
+/*
+ * main
+ */
+ #content_wrapper
+ {
+ background:#ebebeb;
+ }
+#content {
+    margin:auto;
+    
+}
+
+
+   .item {
+   margin: 2px 21px 0 0;	
+    /* background: #D8D5D2; */
+    width: 219px;
+        /* background: #ccc; */
+  float: left;
+  /* vertical gutter */
+  margin-bottom: 10px;
+ 
+    height:auto;
+
+}
+
+.item.h2  > div
+{
+padding: 0px;
+height:auto;	
+	
+}
+
+.item.h2 > div {
+    padding: 0px;
+    height: auto;
+    width: 225px;
+}
+	
+
+.h2 span
+{
+	
+	display:block;
+}
+.middle,.top {
+    display: block;
+    padding: 10px 0;
+}
+h1 {
+        font-size:13px!important;
+        margin:20px auto 0!important;
+        color:#ffffff!important;
+}
+
+.h2 {
+    height:auto;
+   
+}
+
+/*----
+-------
+body wrapper
+--------------------
+*/
+.wrap
+{
+	width:100%;
+
+	
+}
+.gray
+{
+background:#e5e5e5;
+width:63% !important;
+}
+.headright li:nth-child(2)
+{
+	float:right;
+	
+}
+.search_box {
+	color: #000000;
+	height:30px;
+	margin-top:6px;
+}
+.search_boxIn{
+	float:left;
+	margin-left:130px;
+}
+ .search_box .company{
+	padding-top:3px;
+	font-size: 13px;
+    float: right;
+}
+ .search_box .company a{
+	color:#000;
+}
+#contact{
+	margin-bottom:10px;
+}
+ .search_boxIn dl dt {
+	float: right;
+	margin-left: 6px;
+	margin-top:2px;
+}
+ .search_boxIn dl dd {
+	float: right;
+}
+ .search_boxIn dl dd input {
+	width: 200px;
+}
+
+.inner_visual{
+	text-align:left;
+}
+
+.inner_visual ul{
+	padding-top:5px;
+	height:48px;
+	background:url(../img/honki_recruitment_title.png) no-repeat;
+	padding-left:200px;
+}
+.inner_visual li{
+	display:inline-block;
+	padding-left:40px;
+	margin-right:20px;
+	font-size:1.2em;
+text-decoration:underline;逞ｼ�｡逞ｼ謇ｹ�ｽ逞ｼ�｡逞ｼ�ｽ	line-height: 1.2em;
+}
+.inner_visual li.inner_visual_1{
+	background:url(../img/honki_recruitment_icon_1.gif) 0 5px no-repeat;
+}
+.inner_visual li.inner_visual_2{
+	background:url(../img/honki_recruitment_icon_2.gif) 0 5px no-repeat;
+}
+.inner_visual li.inner_visual_3{
+	background:url(../img/honki_recruitment_icon_3.gif) 0 5px no-repeat;
+	margin-right:0;
+}
+
+ .top_infobox {
+}
+
+ #sub_main {
+	width: 100%;
+	background:url(../img/common/footer-bg.png) no-repeat center ;
+	
+	height:275px;
+}
+
+ .sub_mainIn .post_box {
+    margin-bottom: 10px;
+    text-align: left;
+    width: 950px;
+	
+}
+
+ .sub_mainIn .post_box_in {
+}
+ .sub_mainIn .post_box_in .article{
+	width: 300px;
+	float: left;
+	margin-right: 21px;
+	_margin-right: 10px;
+	border:1px solid #ccc;
+	border-top:0;
+}
+ .sub_mainIn .post_box_in .article.right{
+	margin-right: 0;
+}
+
+
+ .sub_mainIn .post_box_in .article_in {
+}
+ .sub_mainIn .post_box_in .article_title{
+	border-top:1px solid #b50000;
+	border-bottom:1px dotted #999999;
+	width: 298px;
+}
+ .sub_mainIn .post_box_in .article_inner {
+	overflow-y: scroll;
+
+	height: 200px;
+	padding:10px;
+	border-top:0;
+}
+
+ .sub_mainIn .post_box_in .article_inner dl {
+	width: 260px;
+	margin-bottom: 15px;
+}
+
+ .sub_mainIn .post_box_in .article_inner dl dd a {
+	text-decoration: underline;
+}
+ .sub_mainIn .post_box_in .article_inner dl dd a:hover,
+ .sub_mainIn .post_box_in .article_inner dl dd a:active {
+	text-decoration: none;
+}
+
+ .content_bottom {
+	text-align:center;
+}
+
+ .content_bottom ul {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+ .content_bottom ul li {
+	display:inline;
+	margin-right: 15px;
+}
+
+ .content_bottom ul li.last {
+	margin-right: 0;
+}
+.copyRight
+{
+	display:block;
+	text-align:center;
+	font-size:12px;
+	
+}
+.center
+{
+	text-align:center;
+}
+
+.nav li a
+{
+	color:#ffffff!important;
+}
+.btn
+{
+	margin:0 auto!important;
+	
+}
+.apply-form
+{
+	    width: 960px;
+    margin: 0 auto;
+    padding: 45px 0 0px 0px;
+    text-align: center;
+ }
+ #footer_wrapper
+ {
+ background:#000000;
+ height:215px;
+ }
+ .footer-txt 
+ {
+        width: 422px;
+    font-size: 13px;
+    margin: 0 auto 10px;
+  text-align:center;
+  
+
+ 
+ }
+ 
+.footer-txt li 
+{
+	color:#ffffff!important;
+}
+.footer-txt li a
+{
+	color:#ffffff!important;
+}
+.cc-txt
+{
+	padding: 5px;
+    background: #000000;
+    font-size: 18px;
+    display: block;
+    width: 225px;
+    color:#ffffff!important;
+}
+.profile-box
+{
+padding:60px 25px;
+height:auto;
+
+}
+.profile-content
+{
+width:100%;
+
+height:auto;	
+}
+.profile-ttl
+{
+	font-size:53px;
+	color:#ffffff;
+	padding-top:60px;
+	
+}
+.bg-black
+{
+	background:#1d1d1d;
+}
+.bg-white
+{
+	background:#ffffff;
+}
+.profile-logo
+{
+	margin-top:40px;
+	marging-left:17px;
+}
+dl {
+    display:block;
+   
+  }
+  dt {
+    float: left;
+    clear: left;
+	margin-right:20px;
+    text-align: left;
+    font-size:16px;
+    font-weight:normal!important
+    
+    
+    
+  }
+ 
+  dd {
+    margin: 0 0 0 110px;
+    padding: 0 0 0.5em 0;
+    width:311px;
+    float:left;
+    font-size:16px;
+    margin-bottom:10px;
+    
+  }
+  .imgcol-3
+  {
+  width:31%!important;
+  padding:0!important;
+  margin:0 31px 0 0;
+  }
+  .imgcol-3:last-child
+  {
+  margin:0!important;
+  } 
+  .imgcol-3
+  {
+  width:281px;
+  height:210px;
+  }
+  .profile-ttl3
+  {
+  margin-bottom:30px;
+  color:#996600;
+  font-weight:bold;
+  
+  }
+  .col2-img
+  {
+ width:350px!important;
+  }
+  .col-img img
+  {
+  width:350px!important;
+  height:500px!important;
+  }
+  .col2-txt
+  {
+  width:510px!important;
+  heith:auto!important;
+  padding:0 0 0 20px;
+  }
+  .center
+  {
+  margin:0 auto;
+  }
+  .charm-area
+  {
+  background:url("../img/charm-bg.png") no-repeat top center;
+  }
+ .charm-area p
+ {
+ font-size:23px;
+ color:#ffffff;
+ }
+ .charm-txt01 {
+  background: url(../img/bg-1.png)left top no-repeat!important;
+  padding-left: 64px!important;
+  margin-bottom: 20px!important;
+  min-height: 60px!important;
+  text-align: left;
+  color: #ffffff;
+  padding-top: 18px;
+  padding-right: 47px;
+  
+}
+.charm-txt02 {
+  background: url(../img/bg-02.png)left top no-repeat!important;
+  padding-left: 64px!important;
+  margin-bottom: 20px!important;
+  min-height: 60px!important;
+  text-align: left;
+  color: #ffffff;
+  padding-top: 18px;
+  padding-right: 47px;
+}
+.charm-txt03 {
+  background: url(../img/bg-3.png)left top no-repeat!important;
+  padding-left: 64px!important;
+  margin-bottom: 20px!important;
+  min-height: 60px!important;
+  text-align: left;
+  color: #ffffff;
+  padding-top: 18px;
+  padding-right: 47px;
+  
+}
+/*******
+*
+*concept*/
+.bg-nav
+{
+	width:100%;
+	background:#1b1b1b;
+}
+.nav li
+{
+	width:25%;
+	text-align:center;
+	display:inline;
+	float:left;
+	border-left:solid 1px #545454;
+	
+}
+.concept-ttl
+{
+	font-size:44px;
+	text-align:center;
+	margin:20px auto;
+}
+.pt90
+{
+	padding-top:90px;
+}

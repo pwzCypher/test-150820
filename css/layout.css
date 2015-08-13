@@ -1,0 +1,208 @@
+.container
+{
+	width:960px;
+	margin:0 auto;
+	
+}
+body
+{
+	font-family:font-family: "ÉqÉâÉMÉmäpÉS Pro W3", "Hiragino Kaku Gothic Pro", "ÉÅÉCÉäÉI", Meiryo, Osaka, "ÇlÇr ÇoÉSÉVÉbÉN", "MS PGothic", sans-serif;
+		
+}
+.fs-16
+{
+font-size:16px;	
+}
+
+/* -------------------------------------------------------------------- 
+/* Margin , Padding
+-------------------------------------------------------------------- */
+
+.mb0 {	margin-bottom: 0px !important;}
+.mb5 {	margin-bottom: 5px !important;}
+.mb10 {	margin-bottom: 10px !important;}
+.mb15 {	margin-bottom: 15px !important;}
+.mb20 {	margin-bottom: 20px !important;}
+.mb25 {	margin-bottom: 25px !important;}
+.mb30 {	margin-bottom: 30px !important;}
+.mb35 {	margin-bottom: 35px !important;}
+.mb40 {	margin-bottom: 40px !important;}
+.mb45 {	margin-bottom: 45px !important;}
+.mb50 {	margin-bottom: 50px !important;}
+.mb55 {	margin-bottom: 55px !important;}
+.mb60 {	margin-bottom: 60px !important;}
+.mb70 {	margin-bottom: 70px !important;}
+.mb80 {	margin-bottom: 80px !important;}
+.mb90 {	margin-bottom: 90px !important;}
+.mb100 {	margin-bottom: 100px !important;}
+
+.ml0 {	margin-left: 0px !important;}
+.ml5 {	margin-left: 5px !important;}
+.ml10 {	margin-left: 10px !important;}
+.ml20 {	margin-left: 20px !important;}
+.ml30 {	margin-left: 30px !important;}
+
+.mr0 {	margin-right: 0px !important;}
+.mr5 {	margin-right: 5px !important;}
+.mr10 {	margin-right: 10px !important;}
+.mr20 {	margin-right: 20px !important;}
+.mr30 {	margin-right: 30px !important;}
+
+.mt0 {	margin-top: 0px !important;}
+.mt5 {	margin-top: 5px !important;}
+.mt10 {	margin-top: 10px !important;}
+.mt20 {	margin-top: 20px !important;}
+.mt30 {	margin-top: 30px !important;}
+.mt25 {	margin-top: 25px !important;}
+.pb0 {	padding-bottom: 0px !important;}
+.pb5 {	padding-bottom: 5px !important;}
+.pb10 {	padding-bottom: 10px !important;}
+.pb20 {	padding-bottom: 20px !important;}
+.pb30 {	padding-bottom: 30px !important;}
+
+.pt0 {	padding-top: 0px !important;}
+.pt5 {	padding-top: 5px !important;}
+.pt10 {	padding-top: 10px !important;}
+.pt20 {	padding-top: 20px !important;}
+.pt30 {	padding-top: 30px !important;}
+.pd0{padding:0!important;}
+
+
+.pl0 {	padding-left: 0px !important;}
+.pr0 {	padding-right: 0px !important;}
+/* -------------------------------------------------------------------- 
+/* Float
+-------------------------------------------------------------------- */
+
+.fll {	float: left !important;}
+.flr {	float: right !important;}
+
+.noFloat { float: none !important;}
+
+/* -------------------------------------------------------------------- 
+/* Clearfix
+-------------------------------------------------------------------- */
+
+.clearfix:after { content: ""; display: block; clear: both; }
+.clearfix { display: inline-block; }
+/*\*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/**/
+
+/* „Éï„É≠„Éº„ÉàËß£Èô§ */
+.both { clear: both; }
+
+ .footin {
+	width:950px;
+	margin:0 auto;
+	text-align:left;
+	padding:0 0 20px 0;
+}
+ .footin .linkbox {
+	padding:25px 0 17px 0;
+	text-align:center;
+	font-size:0.9em;
+}
+.footin .linkbox ul li {
+	display:inline;
+	
+	line-height:1.1em;
+	padding:0 6px;
+	border-left:1px solid #000;
+}
+.linkbox ul li:first-child
+{
+border-left:0;	
+	
+}
+ .footin .linkbox ul li a, #Footer .footin .linkbox ul li a:hover {
+	color:#000;
+}
+/*********
+mansory j query
+********/
+.masonry,
+.masonry .masonry-brick {
+  -webkit-transition-duration: 0.7s;
+     -moz-transition-duration: 0.7s;
+      -ms-transition-duration: 0.7s;
+       -o-transition-duration: 0.7s;
+          transition-duration: 0.7s;
+}
+
+.masonry {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.masonry .masonry-brick {
+  -webkit-transition-property: left, right, top;
+     -moz-transition-property: left, right, top;
+      -ms-transition-property: left, right, top;
+       -o-transition-property: left, right, top;
+          transition-property: left, right, top;
+}
+
+.width-small img
+{
+width:226px;
+height:320px	
+}
+/**
+fontsize
+****/
+.fs-35
+{
+	font-size:35px;
+}
+.fs-23{font-size:23px!important;}
+table
+{
+	width:100%;
+}
+tbody
+{
+	width:100%;
+}
+tr
+{
+	border-top:solid 1px #000000;
+	width:100%;
+	padding-top:10px;
+	padding-bottom:10px;
+	height:auto;
+	
+}
+tr:last-child
+{
+	border-bottom:solid 1px #000000;
+}
+th{
+	padding-top:10px!important;
+	padding-bottom:10px!important;
+	font-weight:bold;
+	font-size:16px!important;
+	padding-left:20px!important;
+}
+td
+{
+	padding-top:10px!important;
+	padding-bottom:10px!important;
+	font-size:16px!important;
+}
+
+.mb80
+{
+	margin-bottom:80px;
+}
+
+/***line-height**/
+p
+{
+
+line-height:1.5em!important;	
+}
